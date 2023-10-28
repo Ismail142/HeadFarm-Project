@@ -1,0 +1,303 @@
+/* COLORS */
+/* #07B108 */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+p {
+    color: rgba(0, 0, 0, 0.719);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+#header {
+    height: 70vh;
+    background: linear-gradient(to top, rgba(20, 20, 20, 0.459), #050b1475), url("assets/images/findingSolution.jpg") no-repeat center center;
+    background-size: cover;
+
+}
+
+
+
+/* NAV BAR */
+.logo {
+    height: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav-bar *,
+.head-title {
+    color: rgb(245, 241, 241) !important;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links li a:hover {
+    border-bottom: 1px solid #07B108;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #07B108;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.btn:hover {
+    background-color: #059905;
+}
+
+.btn img {
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.toogle {
+    cursor: pointer;
+    display: none;
+}
+
+.toogle-img {
+    height: 40px;
+}
+
+/* SUB CONTENT */
+#sub-content {
+    text-align: center;
+    margin-top: 10rem;
+    color: white;
+    margin-top: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+#sub-content>h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+#sub-content>p {
+    color: white;
+}
+
+.social-links {
+    margin-top: 2rem;
+    display: grid;
+    grid-template: repeat(2, 45px) / repeat(2, 150px);
+    justify-content: center;
+    gap: 15px;
+}
+
+.col {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.page {
+    grid-area: 1/1/1/3;
+    background-color: #07B108;
+}
+
+.page>a {
+    color: white !important;
+}
+
+.page:hover {
+    background-color: #059905 !important;
+}
+
+.col>a>img {
+    width: 30px;
+    height: 30px;
+}
+
+.col>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgba(0, 0, 0, 0.678);
+}
+
+.col:hover {
+    background-color: #07B108;
+}
+
+/* ABOUT US */
+hr {
+    width: 9%;
+    border-color: #4AC84B;
+    margin-bottom: 3rem;
+}
+
+#about-us {
+    margin-top: 4rem;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.content {
+    align-items: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    max-width: 300px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.col2 {
+    box-shadow: 2px 1px 6px 2px #1003038a;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* CUSTOMERS */
+#customers {
+    text-align: center;
+    margin: 4rem 0;
+    padding: 0 10px;
+}
+
+.user {
+    border-radius: 80px;
+
+}
+
+.customers-container {
+    margin-top: 8rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.customers-col {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 6px 2px #1003038a;
+    position: relative;
+}
+
+.user {
+    height: 90px;
+    position: absolute;
+    top: -50px;
+    left: 95px;
+}
+
+.customers-col>p {
+    margin-top: 4rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.customers-col>h5 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.icon-star {
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #F1F1F1;
+    padding: 20px;
+}
+
+.footer-div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: flex;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.f-link {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.f-col {
+    flex-grow: 1;
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.head>p {
+    color: black;
+    font-weight: 600;
+}
+
+.f-link>a:hover {
+    border-bottom: 2px solid #07B108;
+    color: #07B108;
+}
+
+.footer-div>hr {
+    width: 100%;
+    margin: 10px auto 0 auto;
+    border-color: #dcdcdc70;
+}
+
+.footer-div>p {
+    margin-bottom: 0;
+}
