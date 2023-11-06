@@ -1,3 +1,2 @@
 # HeadFarm-Project
-
-With this Project I Create a Headfarm Projects. Inspired from an image from Dribble
+I implememented my acquired knowledge 🧠🧠 in transforming my idea 💡💡 to reality 😅.
